@@ -1,11 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-// Get a reference to the audio element
-const audio = new Audio("\\lv-fs01\documents\shiva.chitoe\Downloads\negeria.mp3");
-// Set the loop attribute to true for looping
-audio.loop = true;
-// Play the background music
-audio.play();
+
 
 const bird = {
 
