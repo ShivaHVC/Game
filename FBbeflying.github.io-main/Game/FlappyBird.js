@@ -2,6 +2,8 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 
+
+
 const bird = {
 
     x: 50,
@@ -132,7 +134,10 @@ window.addEventListener('keydown', function(e) {
             bird.velocity = bird.jump;
         }
     }
+    
 });
+
+
 
 
 
